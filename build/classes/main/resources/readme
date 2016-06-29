@@ -1,0 +1,22 @@
+***Purpose:
+1. Put source files in the "src" folder
+2. All generated files ==> to "build" folder
+-- compiled files ==> "classes" folder
+-- jar files ==> "jar" folder
+
+*** Steps using Command Prompt
+1. md build\classes  ==> create new directory
+2. javac -sourcepath src -d build\classes src\main\java\ant\samples\HelloWorld.java  ==> compile the class
+3. java -cp build\classes ant.samples.HelloWorld  ==> run the class
+4. echo Main-Class: ant.samples.HelloWorld>myManifest  ==> Create a manifest file
+5. md build\jar  ==> Create "jar" folder
+6. "jar cfm build\jar\HelloWorld.jar myManifest -C build\classes\ant\samples ."  ==> Create the jar file
+7. java -jar build\jar\HelloWorld.jar  ==> run the jar file
+
+
+
+
+We want to separate the source from the generated files, so our java source files will be in src folder. 
+All generated files should be under build
+and there splitted into several subdirectories for the individual steps:classes for our compiled files and jar for our own JAR-file.
+We have to create only the src directory
