@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--All build files require at least one project and one target -->
+<project name="ant_example" default="Display Info">
+  <property name="src"     location="src/main/java/samples"/>
+	<property name="folder1" location="folder1">
+	</property>
+	<property name="folder1sub" location="folder1/sub-folder1">
+	</property>
+	<property name="folder2" location="folder2">
+	</property>
+	<property name="UserName" value="Murtala" />
+	<property file="build.properties">
+	</property>
+	<target name="Display Info" depends="Building Jars">
+		<!--use ${} to display something, 
+			use ${line.separator} for new lines -->
+		<echo>Version: ${ant.version}</echo>
+		<echo>File Location: ${ant.file}</echo>
+		<echo>Basedir: ${basedir}</echo>
+		<echo>JDK Used: ${ant.java.version}</echo>
+		<echo>Project Name: ${ant.project.name}</echo>
+		<echo>Default Target: ${ant.project.default-target}</echo>
+		<echo>Targets Invoked: ${ant.project.invoked-targets}</echo>
+		<echo>Location of Jar: ${ant.core.lib}</echo>
+		<echo>Install Home: ${ant.home}</echo>
+		<echo>Lib: ${ant.library.dir}</echo>
+	</target>
+	<target name="User Info" description="This target will print user related info">
+		<echo>NickName is ${NickName} ${line.separator}</echo>
+	</target>
+	<target name="Data Types" depends="User Info">
+		<fileset dir="${src}" casesensitive="no">
+			<include name="**/*.java">
+			</include>
+			<exclude name="**/*example2*">
+			</exclude>
+		</fileset>
+	</target>
+	<target name="Building Jars" depends="Data Types">
+		<echo> building jars</echo>
+
+		<jar destfile="folder1/sub-folder1/newJar.jar" basedir="folder2" />
+	</target>
+</project>
