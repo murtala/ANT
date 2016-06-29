@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="PORTABLEONE" id="0" name="CalculatorTest" package="" skipped="0" tests="1" time="0.0" timestamp="2016-06-29T00:52:33">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Users/moort/.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="dist" value="G:\Users\Moortala\EclipseProjects\ant\dist" />
+
+          <property name="lib" value="G:\Users\Moortala\EclipseProjects\ant\lib" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="G:\Program Files\Java\jre1.8.0_71\lib\resources.jar;G:\Program Files\Java\jre1.8.0_71\lib\rt.jar;G:\Program Files\Java\jre1.8.0_71\lib\sunrsasign.jar;G:\Program Files\Java\jre1.8.0_71\lib\jsse.jar;G:\Program Files\Java\jre1.8.0_71\lib\jce.jar;G:\Program Files\Java\jre1.8.0_71\lib\charsets.jar;G:\Program Files\Java\jre1.8.0_71\lib\jfr.jar;G:\Program Files\Java\jre1.8.0_71\classes" />
+
+          <property name="TODAY" value="June 28 2016" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\moort\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_71-b15" />
+
+          <property name="ant.file.SampleJUnitTests" value="G:\Users\Moortala\EclipseProjects\ant\sample_junit.xml" />
+
+          <property name="user.name" value="moortala" />
+
+          <property name="reports" value="G:\Users\Moortala\EclipseProjects\ant\reports" />
+
+          <property name="user.language" value="en" />
+
+          <property name="build" value="G:\Users\Moortala\EclipseProjects\ant\bin" />
+
+          <property name="sun.boot.library.path" value="G:\Program Files\Java\jre1.8.0_71\bin" />
+
+          <property name="ant.project.default-target" value="test" />
+
+          <property name="ant.project.name" value="SampleJUnitTests" />
+
+          <property name="DSTAMP" value="20160628" />
+
+          <property name="java.version" value="1.8.0_71" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="G:\Program Files\Java\jre1.8.0_71\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="src" value="G:\Users\Moortala\EclipseProjects\ant\src\main\java\samples\calculator" />
+
+          <property name="ant.file.type.SampleJUnitTests" value="file" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="G:\Program Files\Java\jre1.8.0_71" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="G:\Users\Moortala\EclipseProjects\ant\sample_junit.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="res" value="G:\Users\Moortala\EclipseProjects\ant\res" />
+
+          <property name="project_name" value="junitSamples" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.71-b15" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\moort\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Users/moort/.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts/" />
+
+          <property name="user.home" value="C:\Users\moort" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.library.path" value="G:\Program Files\Java\jre1.8.0_71\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;G:/Program Files/Java/jre1.8.0_71/bin/server;G:/Program Files/Java/jre1.8.0_71/bin;G:/Program Files/Java/jre1.8.0_71/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;G:\Program Files\Java\jdk1.8.0_71\bin;G:\Program Files (x86)\Git\cmd;G:\Dev\Tools\Apache Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;G:\Program Files (x86)\Heroku\bin;G:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;G:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;G:\Dev\MobileDev\Android-SDK\sdk\tools;G:\Dev\MobileDev\Android-SDK\sdk\platform-tools;G:\Dev\MobileDev\Android-SDK\sdk\build-tools;G:\Dev\JAVA\Libraries\apache-ant-1.9.4\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner CalculatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,G:\Users\Moortala\EclipseProjects\ant\reports\raw\TEST-CalculatorTest.xml crashfile=G:\Users\Moortala\EclipseProjects\ant\junitvmwatcher7338264248154433983.properties propsfile=G:\Users\Moortala\EclipseProjects\ant\junit3812245123905188931.properties" />
+
+          <property name="java.class.path" value="G:\Users\Moortala\EclipseProjects\ant\bin;G:\Users\Moortala\EclipseProjects\ant\lib\hamcrest-core-1.3.jar;G:\Users\Moortala\EclipseProjects\ant\lib\junit-4.11.jar;C:\Users\moort\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\moort\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\moort\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\moort\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="jar_name" value="junitSamples.jar" />
+
+          <property name="TSTAMP" value="1752" />
+
+          <property name="war_name" value="junitSamples.war" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Users/moort/.p2/pool/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\moort\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="G:\Program Files\Java\jre1.8.0_71\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="G:\Users\Moortala\EclipseProjects\ant" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="G:\Users\Moortala\EclipseProjects\ant" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\moort\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="ant.project.invoked-targets" value="test" />
+
+      </properties>
+
+      <error message="CalculatorTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: CalculatorTest
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
